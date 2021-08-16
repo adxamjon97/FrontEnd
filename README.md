@@ -1,8 +1,16 @@
 # Documentation
 
+## save pushes
+
+```console
+git config --global credential.helper store
+
+git pull
+```
+
 index.html
 
-```html
+```html{2,5}
 <main style="max-width: 1400px;">
 	<a href="Portfolio/">
 		<img src="img/logo.jpg"/>
@@ -15,7 +23,7 @@ index.html
 
 Kod sturukturasi
 
-```
+```html
 <a href="#">
 	<img src="img/logo.jpg"/>
 	<p>text</p>
