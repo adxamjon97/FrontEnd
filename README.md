@@ -10,7 +10,7 @@ git pull
 
 index.html
 
-```html{2,5}
+```html
 <main style="max-width: 1400px;">
 	<a href="Portfolio/">
 		<img src="img/logo.jpg"/>
