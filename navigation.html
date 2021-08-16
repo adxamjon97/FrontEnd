@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>navigation</title>
+    </head>
+
+    <body>
+    	<main>
+    		<nav>
+			    <a href="#1">home</a>
+			    <a href="#2">news</a>
+			    <a href="#3">projects</a>
+			    <a href="#4">users</a>
+			    <a href="#5">info</a>
+			    <a href="#6">kirish</a>
+			</nav>
+			
+			<div>
+		    	<h1>hello world</h1>
+				
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, dignissimos!</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla et expedita autem incidunt nesciunt quae excepturi dolorum blanditiis odit hic.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime laudantium repellat vitae neque numquam, facilis labore illo in accusantium sapiente cupiditate dignissimos mollitia placeat, fugit eveniet eius unde dolorum.</p>
+			
+			</div>
+        </main>
+
+        <style>
+			/* global */
+			body, a { text-align: center; }
+			body { background: #ededed; }
+
+			main, a { display: inline-block; }
+        	main { width: 950px; }
+
+        	nav { text-align: left; }
+        	
+			h1, p, a { font-family: sans-serif; }
+
+			div, a { 
+				background-color: white; 
+
+				box-shadow:
+					0 0.46875rem 2.1875rem  rgba(90, 97, 105, .1), 
+					0 0.9375rem  1.40625rem rgba(90, 97, 105, .1), 
+					0 0.25rem    0.53125rem rgba(90, 97, 105, .12), 
+					0 0.125rem   0.1875rem  rgba(90, 97, 105, .1);
+			}
+
+			/* nav */
+        	a{
+        		min-height: 30px;
+        		min-width: 80px;
+        		
+        		padding: 6px 15px;
+        		margin:  4px 2px;
+        		
+        		font-size: 26px;
+
+        		text-decoration: none;
+        		text-transform: capitalize;
+        		
+        		color: black;
+        		
+				transition: box-shadow .7s, color .7s;
+        	}
+
+			a:last-child{ float: right; }
+        	
+			/* div block */
+			div {
+				min-height: 800px;
+
+				margin: 20px;
+				padding: 20px;
+			}
+
+
+			h1 {
+				margin: 0;
+				text-transform: capitalize;
+			}
+
+			p {
+				margin: 3px;
+
+				font-size: 20px;
+				
+				text-align: justify;
+				text-indent: 30px;
+			}
+			
+			/* animate */
+			a:hover {
+				color: rgb(3, 168, 124);
+				
+				box-shadow:
+					0 0.46875rem 2.1875rem  rgba(3, 168, 124, .5), 
+					0 0.9375rem  1.40625rem rgba(3, 168, 124, .3), 
+					0 0.25rem    0.53125rem rgba(3, 168, 124, .3), 
+					0 0.125rem   0.1875rem  rgba(3, 168, 124, .3);
+			}
+
+			/* media */
+        	@media (max-width: 1200px){
+				main{ width: 80%; }
+			}
+        </style>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

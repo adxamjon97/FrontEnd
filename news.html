@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>News</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>News</h1>
+        </header>
+
+        <main>
+        	<a href="#">
+        		<img src="logo.jpg"/>
+        		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        	</a>
+        	
+        	<a href="#">
+        		<img src="logo.jpg"/>
+        		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        	</a>
+        </main>
+		
+		<style>
+			body {
+				margin: 0; 
+				background: #ededed; 
+				text-align: center;
+			}
+
+			/* matinli va boshqa asosiy jihatlar */
+			a {
+				margin: 7px;
+				vertical-align:  top;	     
+				text-decoration: none; 
+			}
+
+			p {
+				margin: 20px;
+				
+				font-size:   22px;
+				font-weight: bold;
+				font-family: sans-serif;
+				
+				text-align: justify;
+				text-indent: 30px;
+				
+				display: -webkit-box;
+				-webkit-line-clamp: 5;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+
+
+			/* Umumiy qiymatlar berish */
+			main {  
+				display:   inline-block; 
+				max-width: 1000px;
+				padding:   0 25px; 
+			}
+
+			a, img { 
+				display: inline-flex;
+				height: 165px; 
+			}
+
+			header, footer { 
+				min-height: 60px;
+				margin:  10px;
+				padding: 5px;
+			}
+						
+			h1, h2 { margin: 7px; }
+			h1, h2, p { font-family: sans-serif;}
+
+			header, footer, a {
+				color:      black;
+				background: white;
+				
+				box-shadow:
+					0 0.46875rem 2.1875rem  rgba(90, 97, 105, .1), 
+					0 0.9375rem  1.40625rem rgba(90, 97, 105, .1), 
+					0 0.25rem    0.53125rem rgba(90, 97, 105, .12), 
+					0 0.125rem   0.1875rem  rgba(90, 97, 105, .1);
+				
+				transition: box-shadow .7s, color .7s;  
+			  	cursor:     pointer;
+			}
+
+
+			/* animatsya */
+			header:hover, footer:hover, a:hover {
+				color: rgb(3, 168, 124);
+				
+				box-shadow:
+					0 0.46875rem 2.1875rem  rgba(3, 168, 124, .5), 
+					0 0.9375rem  1.40625rem rgba(3, 168, 124, .3), 
+					0 0.25rem    0.53125rem rgba(3, 168, 124, .3), 
+					0 0.125rem   0.1875rem  rgba(3, 168, 124, .3);
+			}
+		</style>
+    </body>
+</html>
