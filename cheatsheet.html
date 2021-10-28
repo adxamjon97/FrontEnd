@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Avtorizatsya</title>
+    </head>
+
+    <body>
+        <form>
+        	First name: <input type="text" name="firstname"/><br/>
+        	Last name:  <input type="text" name="lastname"/>
+        </form>
+        
+        <!-- Radio button -->
+        <form>
+        	<input type="radio" name="gender" value="male" checked/> Male<br/>
+        	<input type="radio" name="gender" value="female"/>Female
+        </form>
+        
+        <!-- checkbox button -->
+        <form>
+        	<input type="checkbox" name="v1" value="bike">bike<br/>
+        	<input type="checkbox" name="v1" value="car">car
+        </form>
+        
+        <!-- Submit -->
+        <form action="/file.php">
+        	First name: <input type="text" name="firstname" value="Adxamjon"/><br/>
+        	Last name:  <input type="text" name="lastname" value="Nizametdinov"/><br/>
+        	<input type="submit" value="Submit"/>
+        </form>
+        
+        <!-- target and method -->
+        <form action="" target="_blank"></form>
+        <form action="" method="get"></form>
+        <form action="" method="post"></form>
+        
+        <!-- Fieldset and legend -->
+        <form action="/">
+        	<fieldset>
+        		<legend>Autorizatsya</legend>
+        		First name: <input type="text" name="firstname"/><br/>
+        		Last name:  <input type="text" name="lastname"/><br/>
+        		<input type="submit" value="Submit"/>
+        	</fieldset>
+        </form>
+        
+        <!-- select selected -->
+        <select name="cars" size="3">
+        	<option value="volvo">volvo</option>
+        	<option value="bmw" selected>bmw</option>
+        	<option value="Hummer">Hummer</option>
+        	<option value="Mazda">Mazda</option>
+        </select>
+        
+        <!-- select multiple -->
+        <select name="cars" size="3" multiple>
+        	<option value="volvo">volvo</option>
+        	<option value="bmw" selected>bmw</option>
+        	<option value="Hummer">Hummer</option>
+        	<option value="Mazda">Mazda</option>
+        </select>
+        
+        <textarea name="message" rows="10" cols="30">
+        	lorem epsum dolar ...
+        </textarea>
+        
+        <button type="button" onclick="alert('hello world')">push me</button>
+        
+        <datalist>
+        <output>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

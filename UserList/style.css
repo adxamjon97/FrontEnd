@@ -1,0 +1,85 @@
+body, h1, h3, .divActive { text-align: center; }
+
+body {
+    margin: 0;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+/* tana qismi */
+header, footer { padding: 20px; }
+header { background-color: white; }
+main { margin: 30px; }
+
+footer {
+    font-size: 20px;
+    
+    background-color: rgb(195, 195, 195);
+    color: rgb(105, 105, 105);
+}
+
+/* main qismi */
+div {
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    
+    width:  220px;
+    height: 390px;
+
+    background-color: white;
+    transition: 
+    	width 2s ease, 
+    	height 2s ease, 
+    	box-shadow .5s ease, 
+    	font-size .5s ease;
+}
+
+div:hover {
+    cursor: pointer;
+    box-shadow: 0 0 6px 4px rgba(98, 98, 98, 0.5);
+}
+
+.divActive {
+    width: 300px;
+    height: 570px;
+    cursor: pointer;
+    margin: 0;
+}
+
+img {
+    pointer-events: none;
+    width: 100%;
+}
+
+h1, h3 { margin: 0; }
+
+h3 {
+    font-size: 24px;
+    margin: 6px;
+    transition: font-size 2s;
+}
+
+.h3Active { font-size: 27px; }
+
+p {
+	margin: 0;
+    font-size: 0;
+    display: none;
+    transition: all 18s;
+
+    animation-name: fadeInLeftBig;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+.pActive {
+    font-size: 25px;
+    display: block;
+}
+
+@keyframes fadeInLeftBig {
+    0%   { opacity: 0; font-size:  0; }
+    100% { opacity: 1; font-size: 25; }
+} 
+

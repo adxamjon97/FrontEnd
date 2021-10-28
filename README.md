@@ -1,12 +1,22 @@
 # Documentation
 
-## save pushes
+## Ishlab chiqish etaplari
+
+- talabni qo'yish
+- ko'rinishini chizib olish
+- html da strukturasini yozish
+- css dizaynini chizish
+- js da bazi bir hususiyatlarni qo'shish
+
+## Save pushes
 
 ```console
 git config --global credential.helper store
 
 git pull
 ```
+
+## index strukturasi
 
 index.html
 
@@ -30,7 +40,7 @@ Kod sturukturasi
 </a>
 ```
 
-# nav
+## Navavigatsya strukturasi
 
 ```html
 <nav>
